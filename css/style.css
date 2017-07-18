@@ -1,0 +1,233 @@
+
+body,html {
+
+    margin: 0;
+    padding: 0;
+    background-image: url(https://livedemo00.template-help.com/wordpress_53763/wp-content/themes/theme53763/images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+
+.nav {
+
+    width: 100%;
+    height: 90px;
+    background-color:#f3f5f8;
+
+   
+
+    padding-top: 10px;
+   
+}
+
+.newItem {
+
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
+}
+
+.newItem>img {
+
+    position: relative;
+    padding-left: 10px;
+}
+
+.newItem>p {
+
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+.newItem a{
+
+    text-decoration: none;
+    border-bottom: 1px dashed blue;
+}
+
+.newItem button {
+
+    width: 60%;
+    height: 50px;
+    background-color:rgb(211, 59, 42);
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.verticalLine {
+
+
+    width: 70%;
+    height: 5px;
+    margin: 0px auto;
+    background-color: rgb(159, 203, 0);
+}
+
+.perfectRent {
+
+    width: 70%;
+    height: 240px;
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.perfectRent h1 {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Varela Round';
+    font-size: 45px;
+}
+
+.perfectRent p {
+
+    font-size: 20px;
+    color: darkgray;
+    font-family: "Varela Round";
+
+}
+
+.barMenu {
+
+    width: 80%;
+    height: 55px;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+}
+
+.barMenu>ul {
+
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    margin: 0px;
+    float: left;
+}
+
+.barMenu>ul>li {
+
+    float: left;
+    
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 100px 0 65px;
+    height: 30px;
+    line-height: 30px background-color:gray;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.nav-item:hover {
+
+    color: rgb(159, 203, 0);
+    transition: color 1s;
+}
+
+.nav-Content {
+
+
+    top: 70px;
+    overflow: hidden;
+    background-color: darkgray;
+    max-height: 0;
+}
+
+.nav-Content a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.nav-Sub {
+
+    padding: 20px;
+}
+
+.nav-Sub ul {
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+
+}
+
+.nav-Sub ul li a {
+
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.nav-item:hover~.nav-Content {
+
+    max-height: 400px;
+    -webkit-transition: max-height 3s ease-in;
+    -moz-transition: max-height 3s ease-in;
+    transition: max-height 1s ease-in;
+    font-family: "Varela Round"
+}
+
+.container {
+
+    width: 70%;
+    height: 450px;
+    margin: auto;
+    position: relative;
+    background-attachment: scroll;
+
+
+}
+.container>img{
+
+
+width: 100%;
+height: 100%;
+position: absolute;
+   
+
+
+}
+.container>.btn{
+
+     position: absolute;
+    width: 50px;
+    height: 50px;
+    border:none;
+    border-radius:25px;
+    top: 200px;
+    background-color: green;
+    color: white;
+
+
+}
+.container>#btn2{
+position: relative;
+float:right;
+  transition: all 2s ease;
+
+
+}
+.container>#btn1:hover{
+
+    box-shadow: 5px 0 20px 5px black;
+
+}
+.container>#btn2:hover{
+
+    box-shadow: 5px 0 20px 5px black;
+}
