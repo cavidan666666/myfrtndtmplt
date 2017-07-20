@@ -1,27 +1,22 @@
-
-body,html {
+body {
 
     margin: 0;
     padding: 0;
-    background-image: url(https://livedemo00.template-help.com/wordpress_53763/wp-content/themes/theme53763/images/header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-color: #f3f5f8;
+    height: 100px;
 }
-
-
-
 
 .nav {
 
     width: 100%;
     height: 90px;
-    background-color:#f3f5f8;
+    background-color: #f3f5f8;
 
-   
+
 
     padding-top: 10px;
-   
 }
 
 .newItem {
@@ -46,7 +41,8 @@ body,html {
     padding-left: 10px;
     font-family: sans-serif;
 }
-.newItem a{
+
+.newItem a {
 
     text-decoration: none;
     border-bottom: 1px dashed blue;
@@ -56,7 +52,7 @@ body,html {
 
     width: 60%;
     height: 50px;
-    background-color:rgb(211, 59, 42);
+    background-color: rgb(211, 59, 42);
     position: absolute;
     color: white;
     font-family: sans-serif;
@@ -96,7 +92,6 @@ body,html {
     font-size: 20px;
     color: darkgray;
     font-family: "Varela Round";
-
 }
 
 .barMenu {
@@ -119,7 +114,6 @@ body,html {
 .barMenu>ul>li {
 
     float: left;
-    
 }
 
 .nav-item {
@@ -164,7 +158,6 @@ body,html {
     padding: 0;
     margin: 0;
     list-style-type: none;
-
 }
 
 .nav-Sub ul li a {
@@ -182,52 +175,347 @@ body,html {
     font-family: "Varela Round"
 }
 
-.container {
+#container {
 
     width: 70%;
     height: 450px;
-    margin: auto;
     position: relative;
-    background-attachment: scroll;
-
-
+    margin: 0 auto;
 }
-.container>img{
 
+#container>img {
 
-width: 100%;
-height: 100%;
-position: absolute;
-   
-
-
+    width: 100%;
+    height: 100%;
+    position: absolute;
 }
-.container>.btn{
 
-     position: absolute;
+#container>.btn {
+
+    position: absolute;
     width: 50px;
     height: 50px;
-    border:none;
-    border-radius:25px;
     top: 200px;
-    background-color: green;
+    border-radius: 25px;
+    background: black;
     color: white;
-
-
+    border: none;
 }
-.container>#btn2{
-position: relative;
-float:right;
-  transition: all 2s ease;
 
+#container>#btn2 {
 
+    position: relative;
+    float: right;
 }
-.container>#btn1:hover{
 
+#container>#btn1:hover {
+
+    color: greenyellow;
     box-shadow: 5px 0 20px 5px black;
+}
+
+#container>#btn2:hover {
+
+    color: greenyellow;
+    box-shadow: 5px 0 20px 5px black;
+}
+
+.apContain {
+
+    width: 70%;
+    height: 205px;
+    margin: 0 auto;
+}
+
+.apItem {
+
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    position: relative;
+}
+
+.apItem img {
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+}
+
+.senSection {
+
+    width: 70%;
+    height: 210px;
+    margin: 0 auto;
+}
+
+.senWrite {
+
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 200px;
+    background-color: white;
+    float: left;
+    text-align: center;
+    color: #edb500;
+    font-size: 25px;
+    font-family: 'Varela Round';
+}
+
+.senWrite p {
+
+    font-size: 20px;
+    color: darkgray;
+}
+
+.senWrite h1:hover {
+
+    color: rgb(159, 203, 0);
+    transition: 0.4s ease-in
+}
+
+.apartFinderBox {
+
+    width: 69%;
+    height: 90px;
+
+    margin: 0 auto;
+    padding-top: 15px;
+    position: relative;
+}
+
+.wrapperDiv {
+
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    padding-bottom: 10px;
+}
+
+.wrapperDiv h1 {
+
+    color: gray;
+    font-size: 30px;
+    font-family: "Varela Round";
+}
+
+.submit {
+
+    width: 60%;
+    padding: 20px;
+    border: 1px solid gray;
+    position: relative;
+}
+
+.btnClass {
+
+    padding: 20px;
+    background-color: rgb(159, 203, 0);
+    color: white;
+    font-size: 15px;
+    position: absolute;
+}
+
+.textSection {
+
+
+    width: 70%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.textSectionItem {
+
+    width: calc(50% - 10px);
+    margin: 5px;
+    height: 300px;
+    float: left;
+}
+
+.textSectionItem h1 {
+
+    font-family: "Varela Round";
+    color: gray;
+    font-size: 40px;
+}
+
+.textSectionItem h5 {
+
+    font-family: "Varela Round";
+    color: rgb(161, 150, 119);
+    font-size: 20px;
+}
+
+.textSectionItem h5:hover {
+
+    color: #d2c970;
+    transition: 0.5s ease-in;
+}
+
+.textSectionItem p {
+
+    font-family: "Varela Round";
+    color: gray;
+    font-size: 18px;
+}
+
+.textSectionItem button {
+    width: 80px;
+    padding: 15px;
+    background-color: #6b5f53;
+    color: white;
+    border: none;
+    padding-left: 10px;
+    z-index: 2;
+}
+
+
+.textSectionItem h1:hover {
+
+    color: rgb(159, 203, 0);
+    ;
+    transition: 0.5s ease-in;
+}
+
+
+.textSectionItem button:hover {
+
+    background-color: white;
+    color: black;
+    transition: 1s ease-in;
+}
+
+.imageSection {
+
+
+    background-image: url(https://livedemo00.template-help.com/wordpress_53763/wp-content/uploads/2015/03/parallax_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-color: red;
+    background-attachment: fixed;
+    padding-top: 70px;
+}
+
+.booKing {
+
+    width: 60%;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+    padding: 20px 0 0 0;
+}
+
+.booKing h1 {
+
+    font-size: 150px;
+    margin: 0px 0px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.booKing p {
+
+    text-align: center;
+    font-size: 73px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.booKing:hover {
+
+    background-color: black;
+    transition: 0.4s ease-in;
+}
+
+.secondSliderSection {
+
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.secondSliderSection h2 {
+
+    text-align: center;
+    font-size: 50px;
+    font-family:"Varela Round";
+    color:rgb(88, 74, 62);
+}
+
+.nestedDiv {
+
+    width: 60%;
+    height: 70px;
+    margin: 0 auto;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.nestedDiv>.mybtn {
+
+    padding: 10px;
+    width: 18%;
+    background-color:#6b5f53;;
+    color: white;
+    border: none;
+    height: 50px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.mybtn:hover {
+
+    background-color: greenyellow;
+    transition: 0.4s ease-in;
+}
+
+.pictureSection {
+
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    padding-left: 210px;
+}
+
+.pictureItem {
+
+    width: 20%;
+    margin: 5px 5px;
+    height: 265px;
+    float: left;
+}
+
+ 
+
+.buttonDiv{
+
+    width: 7%;
+    height:45px;
+    margin:0 auto;
+    padding-top: 10px;
+    padding-left:50px;
+    
 
 }
-.container>#btn2:hover{
+.buttonDiv button{
 
-    box-shadow: 5px 0 20px 5px black;
+font-size:25px;
+background-color:#6b5f53;
+border:none;
+color: white;
+
+}
+
+.buttonDiv button:hover{
+
+background-color:white;
+transition: 0.4s ease-in;
+color:black;
 }
