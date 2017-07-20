@@ -376,7 +376,7 @@ body {
 .textSectionItem h1:hover {
 
     color: rgb(159, 203, 0);
-    ;
+    
     transition: 0.5s ease-in;
 }
 
@@ -518,4 +518,50 @@ color: white;
 background-color:white;
 transition: 0.4s ease-in;
 color:black;
+
+}
+
+.timeSection{
+
+    width: 100%;
+    height:405px;
+    background-color: yellow;
+    padding-left:150px;
+    padding-top:px;
+}
+.timeItem{
+
+    width:40%;
+    margin:5px;
+    height:350px;
+    background-color: green;
+    float: left;
+    padding-top: 50px;
+}
+.timeItem h1{
+
+    font-size:80px;
+    margin:0px 0px;
+    font-family: "Varela Round";
+    color:white;
+}
+.timeItem h3{
+
+    font-size:20px;
+    margin:0px 0px;
+    font-family: "Varela Round";
+    color:white;
+}
+.timeItem button{
+
+    width:100px;
+    float: right;
+    padding:15px;
+    background-color: white;
+    color:brown;
+}
+.timeItem button:hover{
+
+    background-color:greenyellow;
+    transition:0.4s ease-in;
 }
