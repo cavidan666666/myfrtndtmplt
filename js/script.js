@@ -1,28 +1,25 @@
-var index = 1;
+var slideIndex = 1;
+showSlides(slideIndex);
 
-function plusIndex(n) {
-
-    index = index + 1;
-    showImage(index);
-    console.log(plusIndex)
+function plusSlides(n) {
+  showSlides(slideIndex += n);
 }
 
-showImage(1);
-
-function showImage(n) {
-
-    var x = document.getElementsByClassName("slides");
-    if (n>x.length) {index=1}
-    	if (n<1) {index=x.length}
-    for (var i = 0; i < x.length; i++) {
-
-        x[i].style.display = "none";
-    }
-    x[index-1].style.display = "block";
+function currentSlide(n) {
+  showSlides(slideIndex = n);
 }
 
-
-
-
-
-
+function showSlides(n) {
+  
+  var slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (var i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+   slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1} 
+ 
+  slides[slideIndex-1].style.display = "block";  
+   setTimeout(showSlides, 3000);
+}
