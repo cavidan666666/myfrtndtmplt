@@ -1,0 +1,287 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3f5f8;
+    height: 100px;
+}
+
+.nav {
+
+    width: 100%;
+    height: 90px;
+    background-color: #f3f5f8;
+
+
+
+    padding-top: 10px;
+}
+
+.newItem {
+
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
+}
+
+.newItem>img {
+
+    position: relative;
+    padding-left: 10px;
+}
+
+.newItem>p {
+
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.newItem a {
+
+    text-decoration: none;
+    border-bottom: 1px dashed blue;
+}
+
+.newItem button {
+
+    width: 60%;
+    height: 50px;
+    background-color: rgb(211, 59, 42);
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.verticalLine {
+
+
+    width: 70%;
+    height: 5px;
+    margin: 0px auto;
+    background-color: rgb(159, 203, 0);
+}
+
+.perfectRent {
+
+    width: 70%;
+    height: 240px;
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.perfectRent h1 {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Varela Round';
+    font-size: 45px;
+}
+
+.perfectRent p {
+
+    font-size: 20px;
+    color: darkgray;
+    font-family: "Varela Round";
+}
+
+.barMenu {
+
+    width: 80%;
+    height: 55px;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+}
+
+.barMenu>ul {
+
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    margin: 0px;
+    float: left;
+}
+
+
+.barMenu>ul>li {
+
+    float: left;
+}
+.nav-Content ul ul{
+
+    display: none;
+}
+.nav-Contect ul li:hover>ul{
+
+    display: block;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 100px 0 65px;
+    height: 30px;
+    line-height: 30px background-color:gray;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.nav-item:hover {
+
+    color: rgb(159, 203, 0);
+    transition: color 1s;
+}
+
+.nav-Content {
+
+
+    top: 70px;
+    overflow: hidden;
+    background-color: darkgray;
+    max-height: 0;
+}
+
+.nav-Content a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.nav-Sub {
+
+    padding: 20px;
+}
+
+.nav-Sub ul {
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-Sub ul li a {
+
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.nav-item:hover~.nav-Content {
+
+    max-height: 400px;
+    -webkit-transition: max-height 3s ease-in;
+    -moz-transition: max-height 3s ease-in;
+    transition: max-height 1s ease-in;
+    font-family: "Varela Round"
+}
+.categorySection{
+
+    width:70%;
+    height:100px;
+    background-color:white;
+    margin:0 auto;
+    margin-bottom: 35px;
+}
+.categorySection h1{
+
+    text-align: center;
+    color: greenyellow;
+    font-size: 30px;
+    font-family: "Varela Round";
+    margin:0 0 15px 0 ;
+
+
+}
+.categorySection h4{
+
+    text-align: center;
+    color:gray;
+    font-family: "Varela Round";
+    margin:0 0;
+    word-spacing:10px;
+}
+.imgSection{
+
+    width:70%;
+    height: 500px;
+    margin:0 auto;
+}
+.imgItem{
+  
+  width:calc(50% - 10px);
+  margin:5px;
+  height:99%;
+  position: relative;
+  float: left;
+
+}
+.imgItem img{
+
+    width:100%;
+    height:100%;
+}
+.imgItem ul{
+
+    font-size:20px;
+    list-style-type: none;
+    font-family: "Varela Round";
+    color: gray;
+
+}
+.imgItem ul li i {
+
+    color: green;
+}
+.imgItem h1{
+
+    padding-left:6.5%;
+    font-family: "Varela Round";
+    font-size:40px;
+}
+.paragraphSection{
+
+    width:69.5%;
+    height: 500px;
+    background-color: greenyellow;
+    margin:0 auto;
+}
+.paragraphSection h1{
+
+    margin:0;
+    padding: 0;
+    font-family: "Varela Round";
+    color:rgb(161, 150, 119);
+}
+.paragraphSection h3{
+
+    margin:0;
+    padding:0;
+    font-family: "Varela Round";
+    color: rgb(97, 97, 86);
+}
+.paragraphSection h2{
+
+
+    margin:0;
+    padding: 0;
+    font-family: "Varela Round";
+    color:rgb(161, 150, 119);
+    padding-bottom:15px;
+}
+.adminItem{
+
+    width: 100%;
+    height:70px;
+    background-color:yellow;
+}

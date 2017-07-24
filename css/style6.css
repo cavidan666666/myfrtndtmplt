@@ -1,0 +1,251 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3f5f8;
+    height: 100px;
+}
+
+.nav {
+
+    width: 100%;
+    height: 90px;
+    background-color: #f3f5f8;
+
+
+
+    padding-top: 10px;
+}
+
+.newItem {
+
+    width: calc(33.33% - 10px);
+    margin: 5px;
+    height: 50px;
+    float: left;
+    padding-top: 10px;
+}
+
+.newItem>img {
+
+    position: relative;
+    padding-left: 10px;
+}
+
+.newItem>p {
+
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    font-family: sans-serif;
+}
+
+.newItem a {
+
+    text-decoration: none;
+    border-bottom: 1px dashed blue;
+}
+
+.newItem button {
+
+    width: 60%;
+    height: 50px;
+    background-color: rgb(211, 59, 42);
+    position: absolute;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.verticalLine {
+
+
+    width: 70%;
+    height: 5px;
+    margin: 0px auto;
+    background-color: rgb(159, 203, 0);
+}
+
+.perfectRent {
+
+    width: 70%;
+    height: 240px;
+    background-color: white;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.perfectRent h1 {
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Varela Round';
+    font-size: 45px;
+}
+
+.perfectRent p {
+
+    font-size: 20px;
+    color: darkgray;
+    font-family: "Varela Round";
+}
+
+.barMenu {
+
+    width: 80%;
+    height: 55px;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+}
+
+.barMenu>ul {
+
+    list-style-type: none;
+    padding: 0 0 0 10px;
+    margin: 0px;
+    float: left;
+}
+
+.barMenu>ul>li {
+
+    float: left;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 10px 100px 0 65px;
+    height: 30px;
+    line-height: 30px background-color:gray;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.nav-item:hover {
+
+    color: rgb(159, 203, 0);
+    transition: color 1s;
+}
+
+.nav-Content {
+
+
+    top: 70px;
+    overflow: hidden;
+    background-color: darkgray;
+    max-height: 0;
+}
+
+.nav-Content a {
+
+    color: white;
+    text-decoration: none;
+}
+
+.nav-Sub {
+
+    padding: 20px;
+}
+
+.nav-Sub ul {
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-Sub ul li a {
+
+    display: inline-block;
+    padding: 5px 0;
+}
+
+.nav-item:hover~.nav-Content {
+
+    max-height: 400px;
+    -webkit-transition: max-height 3s ease-in;
+    -moz-transition: max-height 3s ease-in;
+    transition: max-height 1s ease-in;
+    font-family: "Varela Round"
+}
+.categorySection{
+
+    width:70%;
+    height:100px;
+    background-color:white;
+    margin:0 auto;
+    margin-bottom: 35px;
+}
+.categorySection h1{
+
+    text-align: center;
+    color: greenyellow;
+    font-size: 30px;
+    font-family: "Varela Round";
+    margin:0 0 15px 0 ;
+
+
+}
+.categorySection h4{
+
+    text-align: center;
+    color:gray;
+    font-family: "Varela Round";
+    margin:0 0;
+    word-spacing:10px;
+}
+.picTextSection{
+
+    width:70%;
+    height:500px;
+    background-color: yellow;
+    margin:0 auto;
+}
+.picTextSection h1{
+
+
+color:rgb(88, 74, 62);
+font-family: "Varela Round";
+font-size:40px;
+margin:0px;
+
+}
+.magicDiv{
+
+    width:calc(50% - 20px);
+    margin:10px;
+    height:200px;
+    background-color: green;
+    float: left;
+}
+.magicDiv img{
+
+    height: 100%;
+}
+.h1Section{
+
+    width: 55%;
+    height:45%;
+    background-color: red;
+    float:right;
+}
+.h1Section h1{
+
+    font-size:30px;
+    padding-left:25px;
+    padding-top:15px;
+
+}
+.h1Section p{
+
+    font-size:22px;
+    margin:0px;
+    font-family:"Varela Round";
+    padding-left:20px;
+}
