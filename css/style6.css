@@ -204,8 +204,9 @@ body {
 
     width:70%;
     height:500px;
-    background-color: yellow;
+    
     margin:0 auto;
+    
 }
 .picTextSection h1{
 
@@ -220,9 +221,10 @@ margin:0px;
 
     width:calc(50% - 20px);
     margin:10px;
-    height:200px;
-    background-color: green;
+    height:40%;
+  
     float: left;
+
 }
 .magicDiv img{
 
@@ -232,14 +234,16 @@ margin:0px;
 
     width: 55%;
     height:45%;
-    background-color: red;
+   
     float:right;
+
 }
 .h1Section h1{
 
     font-size:30px;
-    padding-left:25px;
-    padding-top:15px;
+    padding-left:5%;
+    padding-top:5%;
+    color:orange;
 
 }
 .h1Section p{
@@ -247,5 +251,49 @@ margin:0px;
     font-size:22px;
     margin:0px;
     font-family:"Varela Round";
-    padding-left:20px;
+    padding-left:5%;
+}
+.clear{
+
+    clear:both;
+}
+.footerSection{
+
+    width: 100%;
+    height:80px;
+    padding-top:2%;
+}
+
+
+.footerItem{
+
+    width:calc(33.33% - 10px);
+    margin:5px;
+    height: 50px;
+    float: left;
+    text-align:center;
+    padding-top: 5px;
+}
+
+.footerItem img{
+
+    padding-left: 50px;
+}
+
+.footerItem a{
+
+    text-decoration: none;
+    font-size:20px;
+    font-family: "Varela Round";
+    color:black;
+
+}
+.footerItem>.fa{
+
+    padding:15px;
+    float: left;
+    color: gray;
+    font-family: "Varela Round";
+    padding-left:20%;
+
 }
